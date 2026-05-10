@@ -1,0 +1,16 @@
+{
+  "name": "Fixy",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#1B4332",
+    "accent": "#D4A853",
+    "background": "#F5F1EB",
+    "text": "#2D3436",
+    "neutral": "#B7C4CF"
+  },
+  "fonts": {
+    "heading": "Fraunces, serif",
+    "body": "Open Sans, sans-serif"
+  },
+  "visual_style": "Earthy Professional"
+}
