@@ -1,0 +1,12 @@
+{
+  "databases": [
+    {
+      "id": "e5e2c0c2-81dc-4ce5-ac7a-857b090b07de",
+      "name": "fixy_directory",
+      "description": "Primary repository for interest-to-discovery logic (Amazon products + Local event queries).",
+      "publicReads": true,
+      "publicWrites": false
+    }
+  ],
+  "lastUpdated": "2026-05-10"
+}
