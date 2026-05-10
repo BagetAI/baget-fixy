@@ -1,0 +1,62 @@
+/* Custom earthy professional styles */
+:root {
+    --bg-stone: #F5F1EB;
+    --forest: #1B4332;
+    --amber: #D4A853;
+    --charcoal: #2D3436;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.shadow-natural {
+    box-shadow: 0 10px 30px -10px rgba(27, 67, 50, 0.1);
+}
+
+#interest-search {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#interest-search:focus {
+    box-shadow: 0 15px 40px -15px rgba(212, 168, 83, 0.3);
+    transform: translateY(-2px);
+}
+
+/* Custom Fraunces font refinement */
+h1, h2, h3, h4 {
+    letter-spacing: -0.01em;
+}
+
+.group:hover .group-hover\:text-amber {
+    color: var(--amber);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#results-section:not(.hidden) {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Scroll bar style */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-stone);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--forest);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--amber);
+}
