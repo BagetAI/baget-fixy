@@ -1,5 +1,6 @@
 const DIRECTORY_DB_ID = 'e5e2c0c2-81dc-4ce5-ac7a-857b090b07de';
 const WAITLIST_DB_ID = '9cc90250-0596-4b4d-b2a1-f06e9b20db06';
+const ANALYTICS_DB_ID = '1eac6a89-1d34-4059-8124-6825ba7f00b8';
 
 // Initialize view
 document.addEventListener('DOMContentLoaded', () => {
@@ -44,10 +45,13 @@ async function handleSearch() {
             query.toLowerCase().includes(i.interest_name.toLowerCase())
         );
 
+        // Log query for analytics
+        logSearchQuery(query, !!match);
+
         if (match) {
             displayResults(match);
         } else {
-            // No direct match in seed data, fallback or message
+            // No direct match in seed data
             resultTitle.innerText = `Interests for "${query}"`;
             resultCategory.innerText = "Custom Search";
             factCard.innerText = `We're currently expanding our verified database. Join the waitlist to be notified when "${query}" is fully mapped!`;
@@ -58,6 +62,25 @@ async function handleSearch() {
     } catch (error) {
         console.error('Search failed:', error);
         resultTitle.innerText = "Oops, search failed.";
+    }
+}
+
+async function logSearchQuery(query, matchFound) {
+    try {
+        await fetch(`https://app.baget.ai/api/public/databases/${ANALYTICS_DB_ID}/rows`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                data: {
+                    query: query,
+                    found_match: matchFound,
+                    timestamp: new Date().toISOString(),
+                    session_id: Math.random().toString(36).substring(7)
+                }
+            })
+        });
+    } catch (e) {
+        console.error('Analytics logging failed');
     }
 }
 
@@ -103,45 +126,48 @@ function createItemCard(title, desc, url) {
 
 // Waitlist Submission
 const waitlistForm = document.getElementById('waitlist-form');
-waitlistForm.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const email = document.getElementById('waitlist-email').value;
-    const interest = document.getElementById('interest-search').value || 'general';
-    const statusEl = document.getElementById('waitlist-status');
+if (waitlistForm) {
+    waitlistForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = document.getElementById('waitlist-email').value;
+        const interest = document.getElementById('interest-search').value || 'general';
+        const statusEl = document.getElementById('waitlist-status');
 
-    try {
-        const response = await fetch(`https://app.baget.ai/api/public/databases/${WAITLIST_DB_ID}/rows`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                data: {
-                    email: email,
-                    interest: interest,
-                    source: window.referralSource || 'direct'
-                }
-            })
-        });
+        try {
+            const response = await fetch(`https://app.baget.ai/api/public/databases/${WAITLIST_DB_ID}/rows`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    data: {
+                        email: email,
+                        interest: interest,
+                        source: window.referralSource || 'direct'
+                    }
+                })
+            });
 
-        if (response.ok) {
-            statusEl.innerText = "You're on the list! Keep an eye on your inbox for our June launch.";
+            if (response.ok) {
+                statusEl.innerText = "You're on the list! Keep an eye on your inbox for our June launch.";
+                statusEl.classList.remove('hidden');
+                waitlistForm.reset();
+                updateWaitlistCount();
+            } else {
+                throw new Error('Submission failed');
+            }
+        } catch (error) {
+            statusEl.innerText = "Something went wrong. Please try again.";
             statusEl.classList.remove('hidden');
-            waitlistForm.reset();
-            updateWaitlistCount();
-        } else {
-            throw new Error('Submission failed');
         }
-    } catch (error) {
-        statusEl.innerText = "Something went wrong. Please try again.";
-        statusEl.classList.remove('hidden');
-    }
-});
+    });
+}
 
 async function updateWaitlistCount() {
     try {
         const response = await fetch(`https://app.baget.ai/api/public/databases/${WAITLIST_DB_ID}/count`);
         const data = await response.json();
-        if (data.count) {
-            document.getElementById('waitlist-counter').innerText = `${data.count} parents have joined the waitlist`;
+        if (data.count !== undefined) {
+            const counter = document.getElementById('waitlist-counter');
+            if (counter) counter.innerText = `${data.count} parents have joined the waitlist`;
         }
     } catch (error) {
         console.error('Count fetch failed');

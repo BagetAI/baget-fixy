@@ -3,9 +3,30 @@
     {
       "id": "e5e2c0c2-81dc-4ce5-ac7a-857b090b07de",
       "name": "fixy_directory",
-      "description": "Primary repository for interest-to-discovery logic (Amazon products + Local event queries).",
+      "description": "Primary repository for interest-to-discovery logic (Amazon products + Local event queries + Fact cards).",
       "publicReads": true,
       "publicWrites": false
+    },
+    {
+      "id": "abe2b04f-6350-4a09-9771-df4dd02442cf",
+      "name": "fixy_bundles",
+      "description": "Catalog of Standard ($49) and Premium ($99) interest bundles.",
+      "publicReads": true,
+      "publicWrites": false
+    },
+    {
+      "id": "1eac6a89-1d34-4059-8124-6825ba7f00b8",
+      "name": "fixy_search_analytics",
+      "description": "Real-time log of parent search queries for interest pivot detection.",
+      "publicReads": false,
+      "publicWrites": true
+    },
+    {
+      "id": "9cc90250-0596-4b4d-b2a1-f06e9b20db06",
+      "name": "Fixy Waitlist",
+      "description": "Waitlist for early beta access and interest logging.",
+      "publicReads": false,
+      "publicWrites": true
     }
   ],
   "lastUpdated": "2026-05-10"
