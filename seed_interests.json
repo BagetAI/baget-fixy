@@ -1,82 +1,162 @@
 [
   {
-    "interest": "Garbage Trucks",
-    "amazon_search_index": "Toys",
-    "amazon_keywords": "Garbage Truck Toy Toddler Real Lights Sounds",
-    "google_event_query": "Touch a Truck event near me",
-    "event_vibe": "date:next_month",
-    "fact_card": "Most garbage truck arms can lift 400 pounds of trash at once!"
+    "interest_name": "Garbage Trucks",
+    "category": "Vehicles",
+    "amazon_product_refs": "Garbage Truck Toy Toddler Lights Sounds",
+    "local_event_query_terms": "Touch a Truck event near me",
+    "fact_card": "1. Mechanical arms lift 400lbs. 2. Safety lights blink for cars. 3. Some use grabbers. 4. Routes start at sunrise. 5. They sort trash in the back.",
+    "last_updated": "2026-05-10"
   },
   {
-    "interest": "Honey Bees",
-    "amazon_search_index": "Books",
-    "amazon_keywords": "Honey Bee Life Cycle Book Preschool",
-    "google_event_query": "Local apiary tour beekeeping for kids",
-    "event_vibe": "event_type:in_person",
-    "fact_card": "Bees have five eyes—three small ones on top of their head and two large ones in front!"
+    "interest_name": "Honey Bees",
+    "category": "Nature/Insects",
+    "amazon_product_refs": "Honey Bee Life Cycle Book Preschool",
+    "local_event_query_terms": "Local apiary tour beekeeping kids",
+    "fact_card": "1. Bees have five eyes. 2. They do a waggle dance to talk. 3. Queen is the biggest. 4. They make honey for winter. 5. They carry pollen to flowers.",
+    "last_updated": "2026-05-10"
   },
   {
-    "interest": "Excavators",
-    "amazon_search_index": "Toys",
-    "amazon_keywords": "Metal Excavator Toy Sandpit 3 year old",
-    "google_event_query": "Construction site viewpoint or machinery show",
-    "event_vibe": "date:any_time",
-    "fact_card": "The biggest excavators in the world are as tall as a four-story building!"
+    "interest_name": "Excavators",
+    "category": "Construction",
+    "amazon_product_refs": "Metal Excavator Toy Sandpit 3yo",
+    "local_event_query_terms": "Construction machinery show near me",
+    "fact_card": "1. Biggest are 4 stories tall. 2. They use hydraulics to move. 3. Tracks help them crawl on mud. 4. The bucket can scoop a whole car. 5. Drivers use levers to dig.",
+    "last_updated": "2026-05-10"
   },
   {
-    "interest": "The Moon",
-    "amazon_search_index": "Toys",
-    "amazon_keywords": "Moon Lamp for Kids Night Light Astronomy",
-    "google_event_query": "Planetarium show for toddlers or stargazing night",
-    "event_vibe": "event_type:in_person",
-    "fact_card": "The Moon has 'moonquakes' just like Earth has earthquakes!"
+    "interest_name": "The Moon",
+    "category": "Space",
+    "amazon_product_refs": "Moon Lamp Kids Night Light Astronomy",
+    "local_event_query_terms": "Planetarium show for toddlers",
+    "fact_card": "1. Moonquakes happen often. 2. It has no air to breathe. 3. It circles Earth every month. 4. Craters are from space rocks. 5. It looks like it changes shape.",
+    "last_updated": "2026-05-10"
   },
   {
-    "interest": "Ankylosaurus",
-    "amazon_search_index": "Toys",
-    "amazon_keywords": "Ankylosaurus Figure Schleich Dinosaur",
-    "google_event_query": "Natural history museum dinosaur exhibit",
-    "event_vibe": "date:this_weekend",
-    "fact_card": "Ankylosaurus had a club at the end of its tail that was as hard as a rock!"
+    "interest_name": "Ankylosaurus",
+    "category": "Dinosaurs",
+    "amazon_product_refs": "Ankylosaurus Figure Schleich Dinosaur",
+    "local_event_query_terms": "Natural history museum dinosaur",
+    "fact_card": "1. Tail club is hard as rock. 2. It had armor like a tank. 3. It only ate plants. 4. Its name means 'fused lizard'. 5. It lived with T-Rex.",
+    "last_updated": "2026-05-10"
   },
   {
-    "interest": "Steam Engines",
-    "amazon_search_index": "Books",
-    "amazon_keywords": "Steam Train Picture Book History for Kids",
-    "google_event_query": "Heritage railway ride or model train show",
-    "event_vibe": "date:next_month",
-    "fact_card": "Steam engines use boiling water to make steam, which pushes the heavy wheels!"
+    "interest_name": "Steam Engines",
+    "category": "Transportation",
+    "amazon_product_refs": "Steam Train Picture Book History Kids",
+    "local_event_query_terms": "Heritage railway ride train show",
+    "fact_card": "1. Boiling water makes the steam. 2. Whistles warn people to move. 3. Wheels are huge and heavy. 4. Coal keeps the fire hot. 5. Steam pushes the pistons.",
+    "last_updated": "2026-05-10"
   },
   {
-    "interest": "Whales",
-    "amazon_search_index": "Toys",
-    "amazon_keywords": "Blue Whale Realistic Toy Marine Life",
-    "google_event_query": "Aquarium whale feeding or marine biology talk",
-    "event_vibe": "event_type:in_person",
-    "fact_card": "A blue whale's heart is as big as a bumper car!"
+    "interest_name": "Whales",
+    "category": "Marine Life",
+    "amazon_product_refs": "Blue Whale Realistic Toy Marine Life",
+    "local_event_query_terms": "Aquarium whale feeding talk",
+    "fact_card": "1. Heart is big as a bumper car. 2. They breathe air through blowholes. 3. Babies are called calves. 4. Some sing songs underwater. 5. They are as long as 3 buses.",
+    "last_updated": "2026-05-10"
   },
   {
-    "interest": "Firefighting",
-    "amazon_search_index": "Toys",
-    "amazon_keywords": "Fire Truck Toy with Water Pump Toddler",
-    "google_event_query": "Fire station open house for kids",
-    "event_vibe": "date:any_time",
-    "fact_card": "Firefighters wear special suits that can withstand heat up to 2,000 degrees!"
+    "interest_name": "Firefighting",
+    "category": "Community Heroes",
+    "amazon_product_refs": "Fire Truck Toy Water Pump Toddler",
+    "local_event_query_terms": "Fire station open house kids",
+    "fact_card": "1. Suits withstand 2,000 degrees. 2. Sirens tell people to wait. 3. Ladders reach high windows. 4. They carry heavy water hoses. 5. Some have fire dogs like Dalmatians.",
+    "last_updated": "2026-05-10"
   },
   {
-    "interest": "Ant Colonies",
-    "amazon_search_index": "Toys",
-    "amazon_keywords": "Ant Farm Castle Kit for Kids No Dirt",
-    "google_event_query": "Nature center insect workshop",
-    "event_vibe": "event_type:in_person",
-    "fact_card": "Ants can lift things that are 50 times heavier than their own bodies!"
+    "interest_name": "Ant Colonies",
+    "category": "Nature/Insects",
+    "amazon_product_refs": "Ant Farm Castle Kit No Dirt",
+    "local_event_query_terms": "Nature center insect workshop",
+    "fact_card": "1. Lift 50x their own weight. 2. Live in underground tunnels. 3. Soldiers protect the queen. 4. They use smell to find food. 5. They never sleep deeply.",
+    "last_updated": "2026-05-10"
   },
   {
-    "interest": "Tornadoes",
-    "amazon_search_index": "Books",
-    "amazon_keywords": "Tornado in a Bottle Science Kit Weather Book",
-    "google_event_query": "Science center weather exhibit or storm safety talk",
-    "event_vibe": "date:any_time",
-    "fact_card": "Tornadoes are also called 'twisters' because they spin very, very fast!"
+    "interest_name": "Tornadoes",
+    "category": "Science/Weather",
+    "amazon_product_refs": "Tornado in a Bottle Science Kit",
+    "local_event_query_terms": "Science center weather exhibit",
+    "fact_card": "1. Also called 'twisters'. 2. Spin faster than a race car. 3. Shaped like a giant funnel. 4. Most last only a few minutes. 5. Cool air meets warm air to start.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "Recycling",
+    "category": "Science/Sustainability",
+    "amazon_product_refs": "Recycling Truck Toy Sorting Bin",
+    "local_event_query_terms": "Waste management facility tour",
+    "fact_card": "1. Glass can be melted into new jars. 2. Cans are sorted by giant magnets. 3. Paper makes new books. 4. Blue bins keep trash separate. 5. Saving one can runs a TV for 3h.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "Tractors",
+    "category": "Vehicles",
+    "amazon_product_refs": "Tractor Toy Farm Plow Toddler",
+    "local_event_query_terms": "County fair tractor show kids",
+    "fact_card": "1. Wheels can be taller than you. 2. Huge tires drive in mud. 3. They pull heavy farm tools. 4. The cab keeps the farmer dry. 5. They do the work of 50 horses.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "The Human Heart",
+    "category": "Science/Biology",
+    "amazon_product_refs": "Human Body Heart Model Kids",
+    "local_event_query_terms": "Interactive body museum exhibit",
+    "fact_card": "1. Size of your own fist. 2. Makes a 'thump-thump' sound. 3. Works even when you sleep. 4. Beats faster when you run. 5. Pumps blood to your toes.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "Endangered Species",
+    "category": "Nature/Animals",
+    "amazon_product_refs": "Endangered Animal Figures Panda Tiger",
+    "local_event_query_terms": "Zoo conservation talk for families",
+    "fact_card": "1. Pandas eat bamboo all day. 2. Turtles can live to be 100. 3. Tiger stripes are like fingerprints. 4. Snow leopards use tails as scarves. 5. Zoos keep them safe.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "Baking Science",
+    "category": "Science/Cooking",
+    "amazon_product_refs": "Kids Baking Science Kit Rising Bread",
+    "local_event_query_terms": "Preschool cooking class near me",
+    "fact_card": "1. Yeast blows bubbles into bread. 2. Butter melts into a puddle. 3. Heat makes cookies crunchy. 4. Flour is crushed wheat seeds. 5. Timers tell us when it's done.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "World Maps",
+    "category": "Geography",
+    "amazon_product_refs": "Tear Proof World Map for Kids",
+    "local_event_query_terms": "Cultural festival for families",
+    "fact_card": "1. Blue parts are giant oceans. 2. There are 7 big continents. 3. Compass shows North and South. 4. Maps show where we live. 5. Earth is round like a ball.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "Airport Logistics",
+    "category": "Transportation",
+    "amazon_product_refs": "Airport Play Set Plane Luggage",
+    "local_event_query_terms": "Airport observation deck kids",
+    "fact_card": "1. Bags get stickers for planes. 2. Cockpit is where pilots sit. 3. Runways have bright lights. 4. Luggage belts spin bags around. 5. Tower watches the sky.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "Deep Sea Fish",
+    "category": "Marine Life",
+    "amazon_product_refs": "Anglerfish Glow Toy Marine Life",
+    "local_event_query_terms": "Aquarium bioluminescence exhibit",
+    "fact_card": "1. Some have 'light bulbs' on heads. 2. It's cold and dark at bottom. 3. Big eyes catch tiny light. 4. Some glow like glow-sticks. 5. Skin is very thick.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "Castle Life",
+    "category": "History",
+    "amazon_product_refs": "Wooden Castle Play Set Knights",
+    "local_event_query_terms": "Renaissance faire family day",
+    "fact_card": "1. Drawbridges lift like doors. 2. Stone walls stay cool. 3. Knights clank when they walk. 4. Moats are water circles. 5. Towers let you see for miles.",
+    "last_updated": "2026-05-10"
+  },
+  {
+    "interest_name": "Musical Percussion",
+    "category": "Arts/Music",
+    "amazon_product_refs": "Toddler Drum Kit Xylophone Set",
+    "local_event_query_terms": "Toddler drum circle class",
+    "fact_card": "1. Hit drums with sticks or hands. 2. Xylophones sound like 'ding-ding'. 3. Shakers rattle with beads. 4. Every drum has a different voice. 5. Find rhythm in your heart.",
+    "last_updated": "2026-05-10"
   }
 ]
