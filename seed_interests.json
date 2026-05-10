@@ -1,0 +1,82 @@
+[
+  {
+    "interest": "Garbage Trucks",
+    "amazon_search_index": "Toys",
+    "amazon_keywords": "Garbage Truck Toy Toddler Real Lights Sounds",
+    "google_event_query": "Touch a Truck event near me",
+    "event_vibe": "date:next_month",
+    "fact_card": "Most garbage truck arms can lift 400 pounds of trash at once!"
+  },
+  {
+    "interest": "Honey Bees",
+    "amazon_search_index": "Books",
+    "amazon_keywords": "Honey Bee Life Cycle Book Preschool",
+    "google_event_query": "Local apiary tour beekeeping for kids",
+    "event_vibe": "event_type:in_person",
+    "fact_card": "Bees have five eyes—three small ones on top of their head and two large ones in front!"
+  },
+  {
+    "interest": "Excavators",
+    "amazon_search_index": "Toys",
+    "amazon_keywords": "Metal Excavator Toy Sandpit 3 year old",
+    "google_event_query": "Construction site viewpoint or machinery show",
+    "event_vibe": "date:any_time",
+    "fact_card": "The biggest excavators in the world are as tall as a four-story building!"
+  },
+  {
+    "interest": "The Moon",
+    "amazon_search_index": "Toys",
+    "amazon_keywords": "Moon Lamp for Kids Night Light Astronomy",
+    "google_event_query": "Planetarium show for toddlers or stargazing night",
+    "event_vibe": "event_type:in_person",
+    "fact_card": "The Moon has 'moonquakes' just like Earth has earthquakes!"
+  },
+  {
+    "interest": "Ankylosaurus",
+    "amazon_search_index": "Toys",
+    "amazon_keywords": "Ankylosaurus Figure Schleich Dinosaur",
+    "google_event_query": "Natural history museum dinosaur exhibit",
+    "event_vibe": "date:this_weekend",
+    "fact_card": "Ankylosaurus had a club at the end of its tail that was as hard as a rock!"
+  },
+  {
+    "interest": "Steam Engines",
+    "amazon_search_index": "Books",
+    "amazon_keywords": "Steam Train Picture Book History for Kids",
+    "google_event_query": "Heritage railway ride or model train show",
+    "event_vibe": "date:next_month",
+    "fact_card": "Steam engines use boiling water to make steam, which pushes the heavy wheels!"
+  },
+  {
+    "interest": "Whales",
+    "amazon_search_index": "Toys",
+    "amazon_keywords": "Blue Whale Realistic Toy Marine Life",
+    "google_event_query": "Aquarium whale feeding or marine biology talk",
+    "event_vibe": "event_type:in_person",
+    "fact_card": "A blue whale's heart is as big as a bumper car!"
+  },
+  {
+    "interest": "Firefighting",
+    "amazon_search_index": "Toys",
+    "amazon_keywords": "Fire Truck Toy with Water Pump Toddler",
+    "google_event_query": "Fire station open house for kids",
+    "event_vibe": "date:any_time",
+    "fact_card": "Firefighters wear special suits that can withstand heat up to 2,000 degrees!"
+  },
+  {
+    "interest": "Ant Colonies",
+    "amazon_search_index": "Toys",
+    "amazon_keywords": "Ant Farm Castle Kit for Kids No Dirt",
+    "google_event_query": "Nature center insect workshop",
+    "event_vibe": "event_type:in_person",
+    "fact_card": "Ants can lift things that are 50 times heavier than their own bodies!"
+  },
+  {
+    "interest": "Tornadoes",
+    "amazon_search_index": "Books",
+    "amazon_keywords": "Tornado in a Bottle Science Kit Weather Book",
+    "google_event_query": "Science center weather exhibit or storm safety talk",
+    "event_vibe": "date:any_time",
+    "fact_card": "Tornadoes are also called 'twisters' because they spin very, very fast!"
+  }
+]
